@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
+  "rss": "https://bsky.app/profile/did:plc:graae2aksj42jtnhdigcuew5/rss",
   "servers": [
     {
       "id": "MinePererecos-1.21.1",
