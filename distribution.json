@@ -1,85 +1,90 @@
 {
-    "version": "1.0.0",
-    "rss": "<LINK TO RSS FEED>",
-    "servers": [
-      {
-        "id": "MinePererecos-1.21.1",
-        "name": "MinePererecos (Minecraft 1.21.1)",
-        "description": "O servidor da comunidade!",
-        "icon": null,
-        "version": "3.0.0",
-        "address": "mine.pererecos.space:25565",
-        "minecraftVersion": "1.21.1",
-        "mainServer": true,
-        "autoconnect": false,
-        "modules": [
-          {
-            "id": "indigo-renderer.properties",
-            "name": "indigo-renderer.properties",
-            "type": "File",
-            "artifact": {
-              "size": 281,
-              "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/config/fabric/indigo-renderer.properties",
-              "MD5": "643a55f59282b2d65d394ef009fa9b03",
-              "path": "config/fabric/indigo-renderer.properties"
-            }
-          },
-          {
-            "id": "fabricDefaultResourcePacks.dat",
-            "name": "fabricDefaultResourcePacks.dat",
-            "type": "File",
-            "artifact": {
-              "size": 491,
-              "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/data/fabricDefaultResourcePacks.dat",
-              "MD5": "1cd4ff8f96cb47e22f6f93f7b4834978",
-              "path": "data/fabricDefaultResourcePacks.dat"
-            }
-          },
-          {
-            "id": "log.json",
-            "name": "log.json",
-            "type": "File",
-            "artifact": {
-              "size": 0,
-              "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/downloads/log.json",
-              "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-              "path": "downloads/log.json"
-            }
-          },
-          {
-            "id": "latest.log",
-            "name": "latest.log",
-            "type": "File",
-            "artifact": {
-              "size": 6086,
-              "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/logs/latest.log",
-              "MD5": "d9ff6d061399bf0176fde555b3b4395f",
-              "path": "logs/latest.log"
-            }
-          },
-          {
-            "id": "options.txt",
-            "name": "options.txt",
-            "type": "File",
-            "artifact": {
-              "size": 3391,
-              "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/options.txt",
-              "MD5": "f51131ecc4241a2d4e26c9f1460888e6",
-              "path": "options.txt"
-            }
-          },
-          {
-            "id": "packwiz-installer-bootstrap.jar",
-            "name": "packwiz-installer-bootstrap.jar",
-            "type": "File",
-            "artifact": {
-              "size": 98989,
-              "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/packwiz-installer-bootstrap.jar",
-              "MD5": "51454da9ed9625bd3ca5cdc7a402b43b",
-              "path": "packwiz-installer-bootstrap.jar"
-            }
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "MinePererecos-1.21.1",
+      "name": "MinePererecos (Minecraft 1.21.1)",
+      "description": "O servidor da comunidade!",
+      "icon": null,
+      "version": "3.0.0",
+      "address": "mine.pererecos.space:25565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "643a55f59282b2d65d394ef009fa9b03",
+            "path": "config/fabric/indigo-renderer.properties"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "id": "fabricDefaultResourcePacks.dat",
+          "name": "fabricDefaultResourcePacks.dat",
+          "type": "File",
+          "artifact": {
+            "size": 491,
+            "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/data/fabricDefaultResourcePacks.dat",
+            "MD5": "1cd4ff8f96cb47e22f6f93f7b4834978",
+            "path": "data/fabricDefaultResourcePacks.dat"
+          }
+        },
+        {
+          "id": "log.json",
+          "name": "log.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/downloads/log.json",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "downloads/log.json"
+          }
+        },
+        {
+          "id": "latest.log",
+          "name": "latest.log",
+          "type": "File",
+          "artifact": {
+            "size": 6086,
+            "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/logs/latest.log",
+            "MD5": "d9ff6d061399bf0176fde555b3b4395f",
+            "path": "logs/latest.log"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3391,
+            "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/options.txt",
+            "MD5": "f51131ecc4241a2d4e26c9f1460888e6",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "packwiz-installer-bootstrap.jar",
+          "name": "packwiz-installer-bootstrap.jar",
+          "type": "File",
+          "artifact": {
+            "size": 98989,
+            "url": "http://mine.pererecos.space/servers/MinePererecos-1.21.1/files/packwiz-installer-bootstrap.jar",
+            "MD5": "51454da9ed9625bd3ca5cdc7a402b43b",
+            "path": "packwiz-installer-bootstrap.jar"
+          }
+        }
+      ]
+    }
+  ]
+}

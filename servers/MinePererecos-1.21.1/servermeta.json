@@ -1,0 +1,13 @@
+{
+  "$schema": "file:///home/yuui/pererecosroot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "3.0.0",
+    "name": "MinePererecos (Minecraft 1.21.1)",
+    "description": "O servidor da comunidade!",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "mine.pererecos.space:25565",
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "untrackedFiles": []
+}
