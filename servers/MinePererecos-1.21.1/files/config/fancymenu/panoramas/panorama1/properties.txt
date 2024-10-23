@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = panorama1
+  speed = 10
+  fov = 70.0
+  angle = 0
+}

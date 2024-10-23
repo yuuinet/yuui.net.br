@@ -1,0 +1,16 @@
+#Thu Oct 03 10:31:56 BRT 2024
+AO=false
+AURORA=false
+BLOOM=false
+END_CLOUDY_FOG=false
+GENERATED_NORMALS=false
+GENERATED_SPECULAR=false
+LPV_FOG=false
+NETHER_CLOUDY_FOG=false
+REFRACTION=false
+VC=false
+VL=false
+VOXEL_VOLUME_SIZE=64
+WATER_NORMALS=0
+shadowDistance=128.0
+shadowMapResolution=1024

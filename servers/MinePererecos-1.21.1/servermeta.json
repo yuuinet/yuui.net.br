@@ -1,13 +1,21 @@
 {
-  "$schema": "file:///home/yuui/pererecosroot/schemas/ServerMetaSchema.schema.json",
+  "$schema": "file:///home/yuui/git/yuui.net.br/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "3.0.0",
-    "name": "MinePererecos (Minecraft 1.21.1)",
+    "name": "MinePererecos (MC 1.21.1)",
     "description": "O servidor da comunidade!",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "mine.pererecos.space:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
     "mainServer": true,
     "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.7"
   },
   "untrackedFiles": []
 }

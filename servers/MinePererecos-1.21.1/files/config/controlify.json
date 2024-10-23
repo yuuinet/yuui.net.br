@@ -1,0 +1,91 @@
+{
+  "current_controller": "86d27b9b-246b-39aa-8c35-07314bdfac41",
+  "controllers": {
+    "86d27b9b-246b-39aa-8c35-07314bdfac41": {
+      "config": {
+        "controlify:input": {
+          "h_look_sensitivity": 0.79999995,
+          "v_look_sensitivity": 0.79999995,
+          "virtual_mouse_sensitivity": 0.74999994,
+          "reduce_aiming_sensitivity": true,
+          "button_activation_threshold": 0.5,
+          "deadzones": {
+            "controlify:left_stick": 0.080030516,
+            "controlify:right_stick": 0.080030516
+          },
+          "deadzones_calibrated": true,
+          "delayed_calibration": false,
+          "mixed_input": false,
+          "keep_default_bindings": false,
+          "radial_actions": [
+            "controlify:toggle_hud_visibility",
+            "controlify:change_perspective",
+            "controlify:drop_stack",
+            "controlify:open_chat",
+            "controlify:swap_hands",
+            "controlify:pick_block",
+            "controlify:take_screenshot",
+            "controlify:show_player_list"
+          ],
+          "radial_button_focus_timeout_ticks": 20,
+          "mapping": null,
+          "bindings": {
+            "fabric-key-binding-api-v1:key.emotecraft.fastchoose": {
+              "button": "controlify:button/guide"
+            }
+          }
+        },
+        "controlify:config/generic": {
+          "nickname": null,
+          "auto_jump": false,
+          "toggle_sprint": true,
+          "toggle_sneak": true,
+          "disable_fly_drifting": false,
+          "show_ingame_guide": true,
+          "ingame_guide_bottom": true,
+          "show_screen_guides": true,
+          "show_on_screen_keyboard": true,
+          "dont_show_controller_submission": false
+        },
+        "controlify:rumble": {
+          "enabled": true,
+          "vibration_strengths": {
+            "controlify:gui": 1.0,
+            "controlify:interaction": 1.0,
+            "controlify:player": 1.0,
+            "controlify:master": 1.0,
+            "controlify:world": 1.0
+          }
+        }
+      }
+    }
+  },
+  "global": {
+    "virtual_mouse_screens": [
+      "net.minecraft.class_465",
+      "de.maxhenkel.voicechat.gui.VoiceChatSettingsScreen",
+      "io.github.kosmx.emotes.arch.screen.EmoteMenu",
+      "io.github.kosmx.emotes.arch.gui.screen.ConfigScreen",
+      "io.github.kosmx.emotes.arch.screen.ingame.FastMenuScreen",
+      "de.maxhenkel.voicechat.gui.group.JoinGroupScreen",
+      "io.github.kosmx.emotes.arch.screen.ingame.FullMenuScreenHelper",
+      "mezz.jei.gui.recipes.RecipesGui"
+    ],
+    "keyboardMovement": false,
+    "keyboard_movement_whitelist": [],
+    "out_of_focus_input": false,
+    "load_vibration_natives": true,
+    "custom_vibration_natives_path": "",
+    "vibration_onboarded": true,
+    "reach_around": "OFF",
+    "allow_server_rumble": true,
+    "ui_sounds": false,
+    "notify_low_battery": true,
+    "quiet_mode": false,
+    "ingame_button_guide_scale": 1.0,
+    "seen_servers": [
+      "mine.pererecos.space",
+      "129.148.36.1:32510"
+    ]
+  }
+}
